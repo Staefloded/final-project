@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="form__container">
+      <form class="form">
+        <div class="u-mb-medium">
+          <h2 class="heading-secondary mb-2">register</h2>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="text"
+            class="form__input"
+            id="fullname"
+            placeholder="Full Name"
+            name="fullname"
+            required
+          />
+          <label for="fullname" class="form__label">Full Name</label>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="email"
+            class="form__input"
+            id="email"
+            placeholder="Email Address"
+            name="email"
+            required
+          />
+          <label for="email" class="form__label">Email Address</label>
+        </div>
+
+        <div class="form__group">
+          <input type="tel" class="form__input" id="tel" name="telephone" placeholder="Telephone" />
+          <label for="tel" class="form__label">Telephone</label>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="text"
+            class="form__input"
+            id="address"
+            name="address"
+            placeholder="Address"
+          />
+          <label for="address" class="form__label">Address</label>
+        </div>
+
+        <div class="form__group">
+          <input type="text" class="form__input" id="gender" name="gender" placeholder="Gender" />
+          <label for="gender" class="form__label">Gender</label>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="password"
+            class="form__input"
+            id="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <label for="password" class="form__label">Password</label>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="password"
+            class="form__input"
+            id="password2"
+            placeholder="Confirm Password"
+            name="password2"
+            required
+          />
+          <label for="password2" class="form__label">Confirm Password</label>
+        </div>
+
+        <div class="form__group">
+          <button class="btn btn--green">SIGN UP</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/register.js"></script>
+  </body>
+</html>

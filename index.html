@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="form__container">
+      <form class="form">
+        <div class="u-mb-medium">
+          <h2 class="heading-secondary mb-2">Log In</h2>
+        </div>
+
+        <div class="form__group">
+          <input type="email" class="form__input" id="email" placeholder="Email Address" required />
+          <label for="email" class="form__label">Email Address</label>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="password"
+            class="form__input"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <label for="password" class="form__label">Password</label>
+        </div>
+
+        <div class="form__group">
+          <button class="btn btn--green">SIGN IN</button>
+        </div>
+        <p>Don't have an account? <a href="/register.html">Register</a> Here</p>
+      </form>
+    </section>
+
+    <script src="assets/js/signIn.js"></script>
+  </body>
+</html>
